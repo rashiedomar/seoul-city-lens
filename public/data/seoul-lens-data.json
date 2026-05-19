@@ -1,0 +1,4744 @@
+{
+  "generatedAt": "2026-05-19T04:33:50.353Z",
+  "source": {
+    "type": "SeoulRtd public frontend snapshot",
+    "count": 121,
+    "note": "Crowd heatmap and lens metrics are derived from the public SeoulRtd frontend APIs and saved locally for client-side use."
+  },
+  "summary": {
+    "categories": {
+      "발달상권": 28,
+      "인구밀집지역": 48,
+      "관광특구": 7,
+      "공원": 33,
+      "고궁·문화유산": 5
+    },
+    "crowdLevels": {
+      "보통": 23,
+      "약간 붐빔": 27,
+      "여유": 57,
+      "붐빔": 14
+    }
+  },
+  "hotspots": [
+    {
+      "name": "DDP(동대문디자인플라자)",
+      "category": "발달상권",
+      "lat": 37.56698802202402,
+      "lng": 127.01028923736118,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 975,
+        "alightCount": 1150,
+        "balance": 175,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.2,
+        "slowRoadSegments": 40,
+        "roadSegments": 40,
+        "parkingCapacity": 1106,
+        "parkingAvailable": 846,
+        "parkingAvailabilityRate": 76.49186256781194
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "DMC(디지털미디어시티)",
+      "category": "발달상권",
+      "lat": 37.57927761582348,
+      "lng": 126.8917943403394,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 975,
+        "alightCount": 1050,
+        "balance": 75,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 22,
+        "slowRoadSegments": 116,
+        "roadSegments": 116,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25,
+        "feelsLike": 23.8,
+        "rainChance": 20,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "가락시장",
+      "category": "발달상권",
+      "lat": 37.49346831098777,
+      "lng": 127.11189565048856,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 725,
+        "alightCount": 525,
+        "balance": 200,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 25.1,
+        "slowRoadSegments": 0,
+        "roadSegments": 61,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 29,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "가로수길",
+      "category": "발달상권",
+      "lat": 37.521389126042834,
+      "lng": 127.02357225275368,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1350,
+        "alightCount": 1850,
+        "balance": 500,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 22.2,
+        "slowRoadSegments": 40,
+        "roadSegments": 40,
+        "parkingCapacity": 222,
+        "parkingAvailable": 58,
+        "parkingAvailabilityRate": 26.126126126126124
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "가산디지털단지역",
+      "category": "인구밀집지역",
+      "lat": 37.480890177418,
+      "lng": 126.88010684966166,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1150,
+        "alightCount": 1150,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 20,
+        "slowRoadSegments": 88,
+        "roadSegments": 88,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": null,
+        "feelsLike": null,
+        "rainChance": null,
+        "pm10": null,
+        "pm25": null,
+        "uvLabel": null,
+        "airLabel": null
+      }
+    },
+    {
+      "name": "강남 MICE 관광특구",
+      "category": "관광특구",
+      "lat": 37.51100010501905,
+      "lng": 127.06006319403016,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1450,
+        "alightCount": 725,
+        "balance": 725,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 15.7,
+        "slowRoadSegments": 15,
+        "roadSegments": 15,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "강남역",
+      "category": "인구밀집지역",
+      "lat": 37.49885662696318,
+      "lng": 127.02813375850457,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 3750,
+        "alightCount": 3950,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.8,
+        "slowRoadSegments": 65,
+        "roadSegments": 65,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 40,
+        "pm25": 23,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "강서한강공원",
+      "category": "공원",
+      "lat": 37.58651417286208,
+      "lng": 126.81854875468754,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 0,
+        "alightCount": 0,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 56,
+        "slowRoadSegments": 0,
+        "roadSegments": 7,
+        "parkingCapacity": 53,
+        "parkingAvailable": 27,
+        "parkingAvailabilityRate": 50.943396226415096
+      },
+      "weather": {
+        "temperature": 25,
+        "feelsLike": 23.8,
+        "rainChance": 10,
+        "pm10": 35,
+        "pm25": 31,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "건대입구역",
+      "category": "인구밀집지역",
+      "lat": 37.53996722455095,
+      "lng": 127.06819538381424,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1350,
+        "alightCount": 1650,
+        "balance": 300,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 19.7,
+        "slowRoadSegments": 24,
+        "roadSegments": 24,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 34,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "경복궁",
+      "category": "고궁·문화유산",
+      "lat": 37.579876240965085,
+      "lng": 126.97676548644134,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 575,
+        "alightCount": 875,
+        "balance": 300,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.1,
+        "slowRoadSegments": 36,
+        "roadSegments": 36,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "고덕역",
+      "category": "인구밀집지역",
+      "lat": 37.55345534276727,
+      "lng": 127.1548719607482,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 375,
+        "alightCount": 425,
+        "balance": 50,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 24.4,
+        "slowRoadSegments": 28,
+        "roadSegments": 28,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.7,
+        "feelsLike": 23.6,
+        "rainChance": 23.3,
+        "pm10": 34,
+        "pm25": 24,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "고속터미널역",
+      "category": "인구밀집지역",
+      "lat": 37.5048141224395,
+      "lng": 127.00585501942392,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2750,
+        "alightCount": 2950,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 24.7,
+        "slowRoadSegments": 12,
+        "roadSegments": 12,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24.3,
+        "rainChance": 26.7,
+        "pm10": 40,
+        "pm25": 23,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "고척돔",
+      "category": "공원",
+      "lat": 37.4976718211686,
+      "lng": 126.86702254751954,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 375,
+        "alightCount": 325,
+        "balance": 50,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 27.7,
+        "slowRoadSegments": 0,
+        "roadSegments": 18,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 20,
+        "pm10": 44,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "점검중"
+      }
+    },
+    {
+      "name": "광나루한강공원",
+      "category": "공원",
+      "lat": 37.55398758270641,
+      "lng": 127.12981986144032,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": null,
+        "alightCount": null,
+        "balance": null,
+        "flow": null
+      },
+      "traffic": {
+        "avgRoadSpeed": 62.8,
+        "slowRoadSegments": 0,
+        "roadSegments": 59,
+        "parkingCapacity": 359,
+        "parkingAvailable": 157,
+        "parkingAvailabilityRate": 43.73259052924791
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24,
+        "rainChance": 23.3,
+        "pm10": 34,
+        "pm25": 24,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "광장(전통)시장",
+      "category": "발달상권",
+      "lat": 37.57000290572882,
+      "lng": 126.99990379852468,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1050,
+        "alightCount": 1350,
+        "balance": 300,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.5,
+        "slowRoadSegments": 22,
+        "roadSegments": 22,
+        "parkingCapacity": 45,
+        "parkingAvailable": 38,
+        "parkingAvailabilityRate": 84.44444444444444
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "광화문·덕수궁",
+      "category": "고궁·문화유산",
+      "lat": 37.57093072790624,
+      "lng": 126.9771863485977,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 3150,
+        "alightCount": 4250,
+        "balance": 1100,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.7,
+        "slowRoadSegments": 159,
+        "roadSegments": 159,
+        "parkingCapacity": 1260,
+        "parkingAvailable": 523,
+        "parkingAvailabilityRate": 41.50793650793651
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "광화문광장",
+      "category": "공원",
+      "lat": 37.57340949150322,
+      "lng": 126.976921093336,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1550,
+        "alightCount": 2050,
+        "balance": 500,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.5,
+        "slowRoadSegments": 45,
+        "roadSegments": 45,
+        "parkingCapacity": 1260,
+        "parkingAvailable": 523,
+        "parkingAvailabilityRate": 41.50793650793651
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "교대역",
+      "category": "인구밀집지역",
+      "lat": 37.49220124678253,
+      "lng": 127.01395832584544,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1250,
+        "alightCount": 1450,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 19.4,
+        "slowRoadSegments": 13,
+        "roadSegments": 13,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 40,
+        "pm25": 23,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "구로디지털단지역",
+      "category": "인구밀집지역",
+      "lat": 37.48387770585147,
+      "lng": 126.896182530576,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1450,
+        "alightCount": 1250,
+        "balance": 200,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.5,
+        "slowRoadSegments": 43,
+        "roadSegments": 43,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 20,
+        "pm10": 44,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "점검중"
+      }
+    },
+    {
+      "name": "구로역",
+      "category": "인구밀집지역",
+      "lat": 37.502349908966565,
+      "lng": 126.88212199833544,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 425,
+        "alightCount": 475,
+        "balance": 50,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 25.6,
+        "slowRoadSegments": 0,
+        "roadSegments": 23,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 20,
+        "pm10": 44,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "점검중"
+      }
+    },
+    {
+      "name": "국립중앙박물관·용산가족공원",
+      "category": "공원",
+      "lat": 37.522767508090965,
+      "lng": 126.9814274196687,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 625,
+        "alightCount": 525,
+        "balance": 100,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 34.4,
+        "slowRoadSegments": 0,
+        "roadSegments": 6,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "군자역",
+      "category": "인구밀집지역",
+      "lat": 37.556316034259055,
+      "lng": 127.0801949873509,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 775,
+        "alightCount": 725,
+        "balance": 50,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16.6,
+        "slowRoadSegments": 25,
+        "roadSegments": 25,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 23.6,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 34,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "김포공항",
+      "category": "발달상권",
+      "lat": 37.56227190116383,
+      "lng": 126.80259926620698,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 775,
+        "alightCount": 1050,
+        "balance": 275,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 30.5,
+        "slowRoadSegments": 0,
+        "roadSegments": 63,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25,
+        "feelsLike": 23.8,
+        "rainChance": 10,
+        "pm10": 35,
+        "pm25": 31,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "난지한강공원",
+      "category": "공원",
+      "lat": 37.56650156149144,
+      "lng": 126.87732761046652,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 0,
+        "alightCount": 0,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 46.2,
+        "slowRoadSegments": 0,
+        "roadSegments": 9,
+        "parkingCapacity": 620,
+        "parkingAvailable": 620,
+        "parkingAvailabilityRate": 100
+      },
+      "weather": {
+        "temperature": 25,
+        "feelsLike": 23.8,
+        "rainChance": 20,
+        "pm10": 35,
+        "pm25": 31,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "남대문시장",
+      "category": "발달상권",
+      "lat": 37.559915233610056,
+      "lng": 126.97852674223064,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 375,
+        "alightCount": 375,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 11,
+        "slowRoadSegments": 27,
+        "roadSegments": 27,
+        "parkingCapacity": 14,
+        "parkingAvailable": 10,
+        "parkingAvailabilityRate": 71.42857142857143
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "남산공원",
+      "category": "공원",
+      "lat": 37.55157714630764,
+      "lng": 126.99376243339918,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2050,
+        "alightCount": 3250,
+        "balance": 1200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 29,
+        "slowRoadSegments": 0,
+        "roadSegments": 93,
+        "parkingCapacity": 77,
+        "parkingAvailable": 46,
+        "parkingAvailabilityRate": 59.74025974025974
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "노들섬",
+      "category": "공원",
+      "lat": 37.51755720093702,
+      "lng": 126.95866142837744,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 25,
+        "alightCount": 35,
+        "balance": 10,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 10,
+        "slowRoadSegments": 1,
+        "roadSegments": 1,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "노량진",
+      "category": "발달상권",
+      "lat": 37.51389381578597,
+      "lng": 126.94405587646308,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1650,
+        "alightCount": 1350,
+        "balance": 300,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 21.1,
+        "slowRoadSegments": 22,
+        "roadSegments": 22,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.6,
+        "feelsLike": 23.7,
+        "rainChance": 26.7,
+        "pm10": 38,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "대림역",
+      "category": "인구밀집지역",
+      "lat": 37.49266739443748,
+      "lng": 126.89554270599018,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1150,
+        "alightCount": 1050,
+        "balance": 100,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16.8,
+        "slowRoadSegments": 24,
+        "roadSegments": 24,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 20,
+        "pm10": 40,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "덕수궁길·정동길",
+      "category": "발달상권",
+      "lat": 37.56635092441026,
+      "lng": 126.97178453459053,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2250,
+        "alightCount": 2050,
+        "balance": 200,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16,
+        "slowRoadSegments": 39,
+        "roadSegments": 39,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "동대문 관광특구",
+      "category": "관광특구",
+      "lat": 37.56731090568166,
+      "lng": 127.01102251856014,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2750,
+        "alightCount": 3150,
+        "balance": 400,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.5,
+        "slowRoadSegments": 91,
+        "roadSegments": 91,
+        "parkingCapacity": 1185,
+        "parkingAvailable": 917,
+        "parkingAvailabilityRate": 77.38396624472574
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "동대문역",
+      "category": "인구밀집지역",
+      "lat": 37.57148107828231,
+      "lng": 127.00965415964528,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1150,
+        "alightCount": 1450,
+        "balance": 300,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14,
+        "slowRoadSegments": 32,
+        "roadSegments": 32,
+        "parkingCapacity": 25,
+        "parkingAvailable": 25,
+        "parkingAvailabilityRate": 100
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "뚝섬역",
+      "category": "인구밀집지역",
+      "lat": 37.5482906059881,
+      "lng": 127.04613696840212,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 475,
+        "alightCount": 725,
+        "balance": 250,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.8,
+        "slowRoadSegments": 17,
+        "roadSegments": 17,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 37,
+        "pm25": 37,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "뚝섬한강공원",
+      "category": "공원",
+      "lat": 37.52918436674029,
+      "lng": 127.07151481274282,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 175,
+        "alightCount": 225,
+        "balance": 50,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 52.8,
+        "slowRoadSegments": 0,
+        "roadSegments": 16,
+        "parkingCapacity": 671,
+        "parkingAvailable": 391,
+        "parkingAvailabilityRate": 58.27123695976155
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 34,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "망원한강공원",
+      "category": "공원",
+      "lat": 37.553280796716926,
+      "lng": 126.89926777366624,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1050,
+        "alightCount": 1150,
+        "balance": 100,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 34.2,
+        "slowRoadSegments": 0,
+        "roadSegments": 63,
+        "parkingCapacity": 229,
+        "parkingAvailable": 229,
+        "parkingAvailabilityRate": 100
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "명동 관광특구",
+      "category": "관광특구",
+      "lat": 37.56414944914326,
+      "lng": 126.9818508974474,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 6050,
+        "alightCount": 7650,
+        "balance": 1600,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 13,
+        "slowRoadSegments": 152,
+        "roadSegments": 152,
+        "parkingCapacity": 24,
+        "parkingAvailable": 19,
+        "parkingAvailabilityRate": 79.16666666666666
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "미아사거리역",
+      "category": "인구밀집지역",
+      "lat": 37.61219519722216,
+      "lng": 127.03074073791738,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1650,
+        "alightCount": 1450,
+        "balance": 200,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.1,
+        "slowRoadSegments": 53,
+        "roadSegments": 53,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.3,
+        "feelsLike": 23.4,
+        "rainChance": 23.3,
+        "pm10": 42,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "반포한강공원",
+      "category": "공원",
+      "lat": 37.50982535727682,
+      "lng": 126.99467459178852,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 0,
+        "alightCount": 5,
+        "balance": 5,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 40.4,
+        "slowRoadSegments": 0,
+        "roadSegments": 17,
+        "parkingCapacity": 740,
+        "parkingAvailable": 731,
+        "parkingAvailabilityRate": 98.78378378378379
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "발산역",
+      "category": "인구밀집지역",
+      "lat": 37.55915125705704,
+      "lng": 126.83917326673766,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 925,
+        "alightCount": 875,
+        "balance": 50,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 15.5,
+        "slowRoadSegments": 126,
+        "roadSegments": 126,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25,
+        "feelsLike": 23.8,
+        "rainChance": 10,
+        "pm10": 35,
+        "pm25": 31,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "보라매공원",
+      "category": "공원",
+      "lat": 37.49296272467044,
+      "lng": 126.92005624671064,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 275,
+        "alightCount": 325,
+        "balance": 50,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.7,
+        "slowRoadSegments": 9,
+        "roadSegments": 9,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.6,
+        "feelsLike": 23.7,
+        "rainChance": 26.7,
+        "pm10": 38,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "보신각",
+      "category": "고궁·문화유산",
+      "lat": 37.57058502359322,
+      "lng": 126.98341117615443,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1150,
+        "alightCount": 1350,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 12.2,
+        "slowRoadSegments": 37,
+        "roadSegments": 37,
+        "parkingCapacity": 44,
+        "parkingAvailable": 16,
+        "parkingAvailabilityRate": 36.36363636363637
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "북서울꿈의숲",
+      "category": "공원",
+      "lat": 37.62185231817306,
+      "lng": 127.04111616088214,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 65,
+        "alightCount": 85,
+        "balance": 20,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 24.5,
+        "slowRoadSegments": 24,
+        "roadSegments": 24,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.3,
+        "feelsLike": 23.4,
+        "rainChance": 23.3,
+        "pm10": 42,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "북창동 먹자골목",
+      "category": "발달상권",
+      "lat": 37.56226375512298,
+      "lng": 126.97849783692604,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 425,
+        "alightCount": 475,
+        "balance": 50,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 12.1,
+        "slowRoadSegments": 21,
+        "roadSegments": 21,
+        "parkingCapacity": 9,
+        "parkingAvailable": 9,
+        "parkingAvailabilityRate": 100
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "북촌한옥마을",
+      "category": "발달상권",
+      "lat": 37.58223577199946,
+      "lng": 126.98400153134342,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1250,
+        "alightCount": 1450,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16.6,
+        "slowRoadSegments": 63,
+        "roadSegments": 63,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "사당역",
+      "category": "인구밀집지역",
+      "lat": 37.47793078446759,
+      "lng": 126.98126572638918,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1950,
+        "alightCount": 1850,
+        "balance": 100,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.3,
+        "slowRoadSegments": 27,
+        "roadSegments": 27,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24.3,
+        "rainChance": 26.7,
+        "pm10": 40,
+        "pm25": 23,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "삼각지역",
+      "category": "인구밀집지역",
+      "lat": 37.53534083709656,
+      "lng": 126.97388367267295,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 475,
+        "alightCount": 575,
+        "balance": 100,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.4,
+        "slowRoadSegments": 21,
+        "roadSegments": 21,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "서대문독립공원",
+      "category": "공원",
+      "lat": 37.57409112642402,
+      "lng": 126.95660698849584,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 475,
+        "alightCount": 425,
+        "balance": 50,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 23.5,
+        "slowRoadSegments": 20,
+        "roadSegments": 20,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "서리풀공원·몽마르뜨공원",
+      "category": "공원",
+      "lat": 37.49158298537362,
+      "lng": 127.00268317264104,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 3250,
+        "alightCount": 3750,
+        "balance": 500,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 25.7,
+        "slowRoadSegments": 0,
+        "roadSegments": 23,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24.3,
+        "rainChance": 26.7,
+        "pm10": 40,
+        "pm25": 23,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "서울 암사동 유적",
+      "category": "고궁·문화유산",
+      "lat": 37.56063222603756,
+      "lng": 127.13075903451713,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 5,
+        "alightCount": 0,
+        "balance": 5,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 22.9,
+        "slowRoadSegments": 7,
+        "roadSegments": 7,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25,
+        "feelsLike": 23.3,
+        "rainChance": 23.3,
+        "pm10": 34,
+        "pm25": 24,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "서울대공원",
+      "category": "공원",
+      "lat": 37.42900675429909,
+      "lng": 127.01715574159874,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 375,
+        "alightCount": 225,
+        "balance": 150,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 31.5,
+        "slowRoadSegments": 0,
+        "roadSegments": 11,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": null,
+        "feelsLike": null,
+        "rainChance": null,
+        "pm10": null,
+        "pm25": null,
+        "uvLabel": null,
+        "airLabel": null
+      }
+    },
+    {
+      "name": "서울대입구역",
+      "category": "인구밀집지역",
+      "lat": 37.48061297018935,
+      "lng": 126.95306256183126,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1850,
+        "alightCount": 1450,
+        "balance": 400,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 19.4,
+        "slowRoadSegments": 22,
+        "roadSegments": 22,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.6,
+        "feelsLike": 23.7,
+        "rainChance": 26.7,
+        "pm10": 37,
+        "pm25": 21,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "서울숲공원",
+      "category": "공원",
+      "lat": 37.54296302964666,
+      "lng": 127.03764829549208,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 375,
+        "alightCount": 675,
+        "balance": 300,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 34.7,
+        "slowRoadSegments": 0,
+        "roadSegments": 88,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 37,
+        "pm25": 37,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "서울식물원·마곡나루역",
+      "category": "인구밀집지역",
+      "lat": 37.56759682732802,
+      "lng": 126.83106128991008,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 575,
+        "alightCount": 625,
+        "balance": 50,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.3,
+        "slowRoadSegments": 65,
+        "roadSegments": 65,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25,
+        "feelsLike": 23.8,
+        "rainChance": 10,
+        "pm10": 35,
+        "pm25": 31,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "서울역",
+      "category": "인구밀집지역",
+      "lat": 37.55659428234287,
+      "lng": 126.97302795181167,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 5050,
+        "alightCount": 5050,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 15.2,
+        "slowRoadSegments": 43,
+        "roadSegments": 43,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "서촌",
+      "category": "발달상권",
+      "lat": 37.58036733818249,
+      "lng": 126.9695748600938,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 975,
+        "alightCount": 1250,
+        "balance": 275,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.5,
+        "slowRoadSegments": 52,
+        "roadSegments": 52,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "선릉역",
+      "category": "인구밀집지역",
+      "lat": 37.50605402384465,
+      "lng": 127.04980711661749,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2550,
+        "alightCount": 2950,
+        "balance": 400,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16.1,
+        "slowRoadSegments": 75,
+        "roadSegments": 75,
+        "parkingCapacity": 35,
+        "parkingAvailable": 6,
+        "parkingAvailabilityRate": 17.142857142857142
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "성수카페거리",
+      "category": "발달상권",
+      "lat": 37.542966594388666,
+      "lng": 127.05659649147532,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1350,
+        "alightCount": 2650,
+        "balance": 1300,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 15.8,
+        "slowRoadSegments": 56,
+        "roadSegments": 56,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 37,
+        "pm25": 37,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "성신여대입구역",
+      "category": "인구밀집지역",
+      "lat": 37.59239313629728,
+      "lng": 127.01686525406812,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1250,
+        "alightCount": 1150,
+        "balance": 100,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16.8,
+        "slowRoadSegments": 23,
+        "roadSegments": 23,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 23,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "송리단길·호수단길",
+      "category": "발달상권",
+      "lat": 37.50804719212787,
+      "lng": 127.10631422867272,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 425,
+        "alightCount": 575,
+        "balance": 150,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.2,
+        "slowRoadSegments": 33,
+        "roadSegments": 33,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 29,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "송현녹지광장",
+      "category": "공원",
+      "lat": 37.5778572289005,
+      "lng": 126.98371100167718,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1150,
+        "alightCount": 1350,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 15,
+        "slowRoadSegments": 40,
+        "roadSegments": 40,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "수유역",
+      "category": "인구밀집지역",
+      "lat": 37.64106003445984,
+      "lng": 127.02572241174892,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1850,
+        "alightCount": 1550,
+        "balance": 300,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.5,
+        "slowRoadSegments": 50,
+        "roadSegments": 50,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.3,
+        "feelsLike": 23.4,
+        "rainChance": 23.3,
+        "pm10": 42,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "숭례문",
+      "category": "인구밀집지역",
+      "lat": 37.56048613248527,
+      "lng": 126.97572946070105,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2950,
+        "alightCount": 4050,
+        "balance": 1100,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.8,
+        "slowRoadSegments": 32,
+        "roadSegments": 32,
+        "parkingCapacity": 5,
+        "parkingAvailable": 1,
+        "parkingAvailabilityRate": 20
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "시의회 앞",
+      "category": "인구밀집지역",
+      "lat": 37.56706881398608,
+      "lng": 126.9769390254152,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2250,
+        "alightCount": 3050,
+        "balance": 800,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.6,
+        "slowRoadSegments": 42,
+        "roadSegments": 42,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "신논현역·논현역",
+      "category": "인구밀집지역",
+      "lat": 37.50808019559953,
+      "lng": 127.02340571365484,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1350,
+        "alightCount": 1550,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.3,
+        "slowRoadSegments": 22,
+        "roadSegments": 22,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "신도림역",
+      "category": "인구밀집지역",
+      "lat": 37.50909932387703,
+      "lng": 126.89020467171888,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1350,
+        "alightCount": 1350,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 43.7,
+        "slowRoadSegments": 0,
+        "roadSegments": 3,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.6,
+        "feelsLike": 23.7,
+        "rainChance": 26.7,
+        "pm10": 40,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "신림역",
+      "category": "인구밀집지역",
+      "lat": 37.4846768950415,
+      "lng": 126.92933710538512,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1950,
+        "alightCount": 1650,
+        "balance": 300,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 13.9,
+        "slowRoadSegments": 24,
+        "roadSegments": 24,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.6,
+        "feelsLike": 23.7,
+        "rainChance": 26.7,
+        "pm10": 37,
+        "pm25": 21,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "신정네거리역",
+      "category": "인구밀집지역",
+      "lat": 37.52130596880269,
+      "lng": 126.85527514864911,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": null,
+        "alightCount": null,
+        "balance": null,
+        "flow": null
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.7,
+        "slowRoadSegments": 25,
+        "roadSegments": 25,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.9,
+        "feelsLike": 23.4,
+        "rainChance": 20,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "신촌 스타광장",
+      "category": "발달상권",
+      "lat": 37.55650902465963,
+      "lng": 126.93693093240044,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 275,
+        "alightCount": 275,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 12.6,
+        "slowRoadSegments": 18,
+        "roadSegments": 18,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 36,
+        "pm25": 18,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "신촌·이대역",
+      "category": "인구밀집지역",
+      "lat": 37.55703547966972,
+      "lng": 126.93897230704684,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2650,
+        "alightCount": 2950,
+        "balance": 300,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.3,
+        "slowRoadSegments": 45,
+        "roadSegments": 45,
+        "parkingCapacity": 280,
+        "parkingAvailable": 161,
+        "parkingAvailabilityRate": 57.49999999999999
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 36,
+        "pm25": 18,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "쌍문역",
+      "category": "인구밀집지역",
+      "lat": 37.64776163733142,
+      "lng": 127.03308854224912,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1150,
+        "alightCount": 925,
+        "balance": 225,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.7,
+        "slowRoadSegments": 23,
+        "roadSegments": 23,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.3,
+        "feelsLike": 23.4,
+        "rainChance": 23.3,
+        "pm10": 48,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "아차산",
+      "category": "공원",
+      "lat": 37.56684199984653,
+      "lng": 127.10281081875134,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 15,
+        "alightCount": 0,
+        "balance": 15,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 31.7,
+        "slowRoadSegments": 0,
+        "roadSegments": 17,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 23.6,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 34,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "안양천",
+      "category": "공원",
+      "lat": 37.51866755335898,
+      "lng": 126.87969704115729,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 0,
+        "alightCount": 0,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 35.1,
+        "slowRoadSegments": 0,
+        "roadSegments": 39,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.9,
+        "feelsLike": 23.4,
+        "rainChance": 20,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "압구정로데오거리",
+      "category": "발달상권",
+      "lat": 37.52549542648347,
+      "lng": 127.03873419097486,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 675,
+        "alightCount": 875,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 15.7,
+        "slowRoadSegments": 43,
+        "roadSegments": 43,
+        "parkingCapacity": 32,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "양재역",
+      "category": "인구밀집지역",
+      "lat": 37.48533943844614,
+      "lng": 127.03397151015471,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1350,
+        "alightCount": 1450,
+        "balance": 100,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 20.5,
+        "slowRoadSegments": 29,
+        "roadSegments": 29,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 40,
+        "pm25": 23,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "양화한강공원",
+      "category": "공원",
+      "lat": 37.541304672138686,
+      "lng": 126.89818517830862,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 5,
+        "alightCount": 5,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 35.6,
+        "slowRoadSegments": 0,
+        "roadSegments": 14,
+        "parkingCapacity": 501,
+        "parkingAvailable": 100,
+        "parkingAvailabilityRate": 19.960079840319363
+      },
+      "weather": {
+        "temperature": 24.9,
+        "feelsLike": 23.4,
+        "rainChance": 20,
+        "pm10": 40,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "어린이대공원",
+      "category": "공원",
+      "lat": 37.549061689426495,
+      "lng": 127.08136096173963,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 975,
+        "alightCount": 1350,
+        "balance": 375,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 19,
+        "slowRoadSegments": 14,
+        "roadSegments": 14,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 34,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "여의도",
+      "category": "발달상권",
+      "lat": 37.525022139733295,
+      "lng": 126.92553123975031,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 3550,
+        "alightCount": 4150,
+        "balance": 600,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 22.6,
+        "slowRoadSegments": 281,
+        "roadSegments": 281,
+        "parkingCapacity": 1902,
+        "parkingAvailable": 537,
+        "parkingAvailabilityRate": 28.23343848580442
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 40,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "여의도한강공원",
+      "category": "공원",
+      "lat": 37.52898676688883,
+      "lng": 126.928222998599,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 225,
+        "alightCount": 325,
+        "balance": 100,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 33.1,
+        "slowRoadSegments": 0,
+        "roadSegments": 35,
+        "parkingCapacity": 1433,
+        "parkingAvailable": 314,
+        "parkingAvailabilityRate": 21.912072575017447
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 40,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "여의서로",
+      "category": "공원",
+      "lat": 37.53270054513506,
+      "lng": 126.91458427574008,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": null,
+        "alightCount": null,
+        "balance": null,
+        "flow": null
+      },
+      "traffic": {
+        "avgRoadSpeed": 32.9,
+        "slowRoadSegments": 0,
+        "roadSegments": 25,
+        "parkingCapacity": 84,
+        "parkingAvailable": 46,
+        "parkingAvailabilityRate": 54.761904761904766
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 40,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "역삼역",
+      "category": "인구밀집지역",
+      "lat": 37.50039200627728,
+      "lng": 127.03818409511769,
+      "crowd": {
+        "level": "붐빔",
+        "levelNum": 4,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 975,
+        "alightCount": 1450,
+        "balance": 475,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 15.6,
+        "slowRoadSegments": 40,
+        "roadSegments": 40,
+        "parkingCapacity": 12,
+        "parkingAvailable": 1,
+        "parkingAvailabilityRate": 8.333333333333332
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "연남동",
+      "category": "발달상권",
+      "lat": 37.56161788859152,
+      "lng": 126.92234004465256,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 175,
+        "alightCount": 225,
+        "balance": 50,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16.8,
+        "slowRoadSegments": 35,
+        "roadSegments": 35,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 22.8,
+        "feelsLike": 22.4,
+        "rainChance": 23.3,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "연신내역",
+      "category": "인구밀집지역",
+      "lat": 37.61865927321667,
+      "lng": 126.92072504484425,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1450,
+        "alightCount": 1150,
+        "balance": 300,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 20.1,
+        "slowRoadSegments": 10,
+        "roadSegments": 10,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.3,
+        "feelsLike": 23,
+        "rainChance": 16.7,
+        "pm10": 27,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "영등포 타임스퀘어",
+      "category": "발달상권",
+      "lat": 37.51686312993338,
+      "lng": 126.9061513423597,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1750,
+        "alightCount": 2050,
+        "balance": 300,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16.6,
+        "slowRoadSegments": 46,
+        "roadSegments": 46,
+        "parkingCapacity": 172,
+        "parkingAvailable": 69,
+        "parkingAvailabilityRate": 40.116279069767444
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 40,
+        "pm25": 30,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "오목교역·목동운동장",
+      "category": "인구밀집지역",
+      "lat": 37.528810546016906,
+      "lng": 126.87664147770523,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 975,
+        "alightCount": 1150,
+        "balance": 175,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 27.7,
+        "slowRoadSegments": 0,
+        "roadSegments": 136,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.9,
+        "feelsLike": 23.4,
+        "rainChance": 20,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "올림픽공원",
+      "category": "공원",
+      "lat": 37.51940809870298,
+      "lng": 127.1224106503952,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 125,
+        "alightCount": 125,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 24.6,
+        "slowRoadSegments": 58,
+        "roadSegments": 58,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 29,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "왕십리역",
+      "category": "인구밀집지역",
+      "lat": 37.56221587000449,
+      "lng": 127.03890031882612,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1750,
+        "alightCount": 2750,
+        "balance": 1000,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18,
+        "slowRoadSegments": 33,
+        "roadSegments": 33,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 37,
+        "pm25": 37,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "용리단길",
+      "category": "발달상권",
+      "lat": 37.531185596284224,
+      "lng": 126.97129387671822,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 875,
+        "alightCount": 1050,
+        "balance": 175,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17,
+        "slowRoadSegments": 22,
+        "roadSegments": 22,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "용산역",
+      "category": "인구밀집지역",
+      "lat": 37.53025577317322,
+      "lng": 126.96082157493947,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1550,
+        "alightCount": 1850,
+        "balance": 300,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 20.9,
+        "slowRoadSegments": 85,
+        "roadSegments": 85,
+        "parkingCapacity": 559,
+        "parkingAvailable": 372,
+        "parkingAvailabilityRate": 66.54740608228981
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "월드컵공원",
+      "category": "공원",
+      "lat": 37.57018780064397,
+      "lng": 126.884200975886,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 775,
+        "alightCount": 725,
+        "balance": 50,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 31.8,
+        "slowRoadSegments": 0,
+        "roadSegments": 109,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25,
+        "feelsLike": 23.8,
+        "rainChance": 20,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "응봉산",
+      "category": "공원",
+      "lat": 37.54821462768475,
+      "lng": 127.03046621200328,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 125,
+        "alightCount": 125,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 21.7,
+        "slowRoadSegments": 45,
+        "roadSegments": 45,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 37,
+        "pm25": 37,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "이촌한강공원",
+      "category": "공원",
+      "lat": 37.51940104695114,
+      "lng": 126.966650659643,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 0,
+        "alightCount": 0,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 40.3,
+        "slowRoadSegments": 0,
+        "roadSegments": 21,
+        "parkingCapacity": 257,
+        "parkingAvailable": 257,
+        "parkingAvailabilityRate": 100
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "이태원 관광특구",
+      "category": "관광특구",
+      "lat": 37.53443791780294,
+      "lng": 126.99437268919876,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 625,
+        "alightCount": 1050,
+        "balance": 425,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 20.1,
+        "slowRoadSegments": 27,
+        "roadSegments": 27,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "이태원 앤틱가구거리",
+      "category": "발달상권",
+      "lat": 37.5322313302281,
+      "lng": 126.99391844470225,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 275,
+        "alightCount": 425,
+        "balance": 150,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 19.2,
+        "slowRoadSegments": 31,
+        "roadSegments": 31,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "이태원역",
+      "category": "인구밀집지역",
+      "lat": 37.53418584930608,
+      "lng": 126.99304838437055,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 275,
+        "alightCount": 425,
+        "balance": 150,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16.4,
+        "slowRoadSegments": 14,
+        "roadSegments": 14,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "익선동",
+      "category": "발달상권",
+      "lat": 37.57266142817684,
+      "lng": 126.98963065880072,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1850,
+        "alightCount": 2350,
+        "balance": 500,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 12.4,
+        "slowRoadSegments": 37,
+        "roadSegments": 37,
+        "parkingCapacity": 2,
+        "parkingAvailable": 1,
+        "parkingAvailabilityRate": 50
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "인사동",
+      "category": "발달상권",
+      "lat": 37.57386324139464,
+      "lng": 126.98606346091812,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2050,
+        "alightCount": 2450,
+        "balance": 400,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 12.6,
+        "slowRoadSegments": 60,
+        "roadSegments": 60,
+        "parkingCapacity": 2,
+        "parkingAvailable": 1,
+        "parkingAvailabilityRate": 50
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "잠실 관광특구",
+      "category": "관광특구",
+      "lat": 37.516479449642375,
+      "lng": 127.11527419790497,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 3050,
+        "alightCount": 3450,
+        "balance": 400,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 20.9,
+        "slowRoadSegments": 124,
+        "roadSegments": 124,
+        "parkingCapacity": 357,
+        "parkingAvailable": 55,
+        "parkingAvailabilityRate": 15.406162464985995
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 29,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "잠실롯데타워·석촌호수",
+      "category": "발달상권",
+      "lat": 37.5115593919546,
+      "lng": 127.1033061488702,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": null,
+        "alightCount": null,
+        "balance": null,
+        "flow": null
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.1,
+        "slowRoadSegments": 74,
+        "roadSegments": 74,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 29,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "잠실새내역",
+      "category": "인구밀집지역",
+      "lat": 37.51041322602644,
+      "lng": 127.08265644375516,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 825,
+        "alightCount": 775,
+        "balance": 50,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.7,
+        "slowRoadSegments": 39,
+        "roadSegments": 39,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 29,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "잠실역",
+      "category": "인구밀집지역",
+      "lat": 37.51199705858888,
+      "lng": 127.10036687733762,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 475,
+        "alightCount": 675,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.6,
+        "slowRoadSegments": 34,
+        "roadSegments": 34,
+        "parkingCapacity": 357,
+        "parkingAvailable": 55,
+        "parkingAvailabilityRate": 15.406162464985995
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 29,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "잠실종합운동장",
+      "category": "공원",
+      "lat": 37.51452193585276,
+      "lng": 127.07364845553478,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 325,
+        "alightCount": 325,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 29.8,
+        "slowRoadSegments": 0,
+        "roadSegments": 6,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 29,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "잠실한강공원",
+      "category": "공원",
+      "lat": 37.51923385375554,
+      "lng": 127.0842977102262,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 375,
+        "alightCount": 475,
+        "balance": 100,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 43.2,
+        "slowRoadSegments": 0,
+        "roadSegments": 20,
+        "parkingCapacity": 663,
+        "parkingAvailable": 376,
+        "parkingAvailabilityRate": 56.711915535444945
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 34,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "잠원한강공원",
+      "category": "공원",
+      "lat": 37.52381029475038,
+      "lng": 127.0147283849283,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 15,
+        "alightCount": 35,
+        "balance": 20,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 34.2,
+        "slowRoadSegments": 0,
+        "roadSegments": 14,
+        "parkingCapacity": 735,
+        "parkingAvailable": 735,
+        "parkingAvailabilityRate": 100
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "장지역",
+      "category": "인구밀집지역",
+      "lat": 37.47875043824956,
+      "lng": 127.1232753724778,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 425,
+        "alightCount": 425,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.5,
+        "slowRoadSegments": 56,
+        "roadSegments": 56,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 29,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "장한평역",
+      "category": "인구밀집지역",
+      "lat": 37.56180435242864,
+      "lng": 127.06478590006108,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 775,
+        "alightCount": 625,
+        "balance": 150,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 22,
+        "slowRoadSegments": 57,
+        "roadSegments": 57,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 31,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "종로·청계 관광특구",
+      "category": "관광특구",
+      "lat": 37.57000153681658,
+      "lng": 126.99736970161165,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 6550,
+        "alightCount": 8250,
+        "balance": 1700,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 13.5,
+        "slowRoadSegments": 81,
+        "roadSegments": 81,
+        "parkingCapacity": 168,
+        "parkingAvailable": 106,
+        "parkingAvailabilityRate": 63.095238095238095
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "창덕궁·종묘",
+      "category": "고궁·문화유산",
+      "lat": 37.578695650372666,
+      "lng": 126.99335264781948,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2550,
+        "alightCount": 3250,
+        "balance": 700,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14.8,
+        "slowRoadSegments": 26,
+        "roadSegments": 26,
+        "parkingCapacity": 1317,
+        "parkingAvailable": 176,
+        "parkingAvailabilityRate": 13.363705391040243
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "창동 신경제 중심지",
+      "category": "발달상권",
+      "lat": 37.65614764603459,
+      "lng": 127.0547058801406,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2950,
+        "alightCount": 2650,
+        "balance": 300,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.3,
+        "slowRoadSegments": 144,
+        "roadSegments": 144,
+        "parkingCapacity": 106,
+        "parkingAvailable": 45,
+        "parkingAvailabilityRate": 42.45283018867924
+      },
+      "weather": {
+        "temperature": 24.6,
+        "feelsLike": 23.6,
+        "rainChance": 23.3,
+        "pm10": 0,
+        "pm25": 41,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "천호역",
+      "category": "인구밀집지역",
+      "lat": 37.53923891768181,
+      "lng": 127.12501265311388,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1250,
+        "alightCount": 1350,
+        "balance": 100,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17,
+        "slowRoadSegments": 40,
+        "roadSegments": 40,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24,
+        "rainChance": 23.3,
+        "pm10": 34,
+        "pm25": 24,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "청계산",
+      "category": "공원",
+      "lat": 37.44073902621305,
+      "lng": 127.05001798543552,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 5,
+        "alightCount": 5,
+        "balance": 0,
+        "flow": "유출입인구 균등"
+      },
+      "traffic": {
+        "avgRoadSpeed": 47,
+        "slowRoadSegments": 0,
+        "roadSegments": 10,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 24.6,
+        "feelsLike": 23.2,
+        "rainChance": 23.3,
+        "pm10": 40,
+        "pm25": 23,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "청담동 명품거리",
+      "category": "발달상권",
+      "lat": 37.525831560902986,
+      "lng": 127.04376535459726,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 475,
+        "alightCount": 625,
+        "balance": 150,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.1,
+        "slowRoadSegments": 44,
+        "roadSegments": 44,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 41,
+        "pm25": 27,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "청량리 제기동 일대 전통시장",
+      "category": "발달상권",
+      "lat": 37.58082954600799,
+      "lng": 127.0399806618902,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 2550,
+        "alightCount": 1750,
+        "balance": 800,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 17.7,
+        "slowRoadSegments": 50,
+        "roadSegments": 50,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 31,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "총신대입구(이수)역",
+      "category": "인구밀집지역",
+      "lat": 37.48600251113567,
+      "lng": 126.98104238169182,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1450,
+        "alightCount": 1150,
+        "balance": 300,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 15.7,
+        "slowRoadSegments": 31,
+        "roadSegments": 31,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.4,
+        "feelsLike": 24.3,
+        "rainChance": 26.7,
+        "pm10": 38,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "충정로역",
+      "category": "인구밀집지역",
+      "lat": 37.55969632013057,
+      "lng": 126.96369132536704,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 575,
+        "alightCount": 525,
+        "balance": 50,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 16.7,
+        "slowRoadSegments": 23,
+        "roadSegments": 23,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 36,
+        "pm25": 18,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "합정역",
+      "category": "인구밀집지역",
+      "lat": 37.54937630871768,
+      "lng": 126.9117349396798,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1150,
+        "alightCount": 1250,
+        "balance": 100,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 20.6,
+        "slowRoadSegments": 66,
+        "roadSegments": 66,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "해방촌·경리단길",
+      "category": "발달상권",
+      "lat": 37.542370637669535,
+      "lng": 126.987183025278,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 275,
+        "alightCount": 175,
+        "balance": 100,
+        "flow": "인구 유출 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 32.3,
+        "slowRoadSegments": 0,
+        "roadSegments": 15,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 62,
+        "pm25": 32,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "혜화역",
+      "category": "인구밀집지역",
+      "lat": 37.58248157188168,
+      "lng": 127.0017639349408,
+      "crowd": {
+        "level": "약간 붐빔",
+        "levelNum": 3,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1250,
+        "alightCount": 1850,
+        "balance": 600,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 18.6,
+        "slowRoadSegments": 16,
+        "roadSegments": 16,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.1,
+        "feelsLike": 23.7,
+        "rainChance": 23.3,
+        "pm10": 33,
+        "pm25": 26,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "홍대 관광특구",
+      "category": "관광특구",
+      "lat": 37.55391867558625,
+      "lng": 126.92127401787192,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 3550,
+        "alightCount": 4450,
+        "balance": 900,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 14,
+        "slowRoadSegments": 79,
+        "roadSegments": 79,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 26.3,
+        "feelsLike": 24.7,
+        "rainChance": 26.7,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "홍대입구역(2호선)",
+      "category": "인구밀집지역",
+      "lat": 37.55676230250466,
+      "lng": 126.92300750386934,
+      "crowd": {
+        "level": "보통",
+        "levelNum": 2,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1250,
+        "alightCount": 1650,
+        "balance": 400,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 13.5,
+        "slowRoadSegments": 21,
+        "roadSegments": 21,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 22.8,
+        "feelsLike": 22.4,
+        "rainChance": 23.3,
+        "pm10": 39,
+        "pm25": 25,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "홍제폭포",
+      "category": "공원",
+      "lat": 37.58078769598587,
+      "lng": 126.93698343975692,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": null,
+        "alightCount": null,
+        "balance": null,
+        "flow": null
+      },
+      "traffic": {
+        "avgRoadSpeed": 34.6,
+        "slowRoadSegments": 0,
+        "roadSegments": 8,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 22.8,
+        "feelsLike": 22.4,
+        "rainChance": 23.3,
+        "pm10": 36,
+        "pm25": 18,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    },
+    {
+      "name": "회기역",
+      "category": "인구밀집지역",
+      "lat": 37.59054040799023,
+      "lng": 127.0561618798434,
+      "crowd": {
+        "level": "여유",
+        "levelNum": 1,
+        "oneHourRate": null,
+        "threeHourRate": null,
+        "residentShare": null,
+        "nonResidentShare": null,
+        "dominantAgeLabel": null,
+        "dominantAgeShare": null
+      },
+      "transit": {
+        "rideCount": 1450,
+        "alightCount": 1650,
+        "balance": 200,
+        "flow": "인구 유입 중"
+      },
+      "traffic": {
+        "avgRoadSpeed": 19,
+        "slowRoadSegments": 29,
+        "roadSegments": 29,
+        "parkingCapacity": 0,
+        "parkingAvailable": 0,
+        "parkingAvailabilityRate": 0
+      },
+      "weather": {
+        "temperature": 25.3,
+        "feelsLike": 23.8,
+        "rainChance": 23.3,
+        "pm10": 38,
+        "pm25": 31,
+        "uvLabel": "매우높음",
+        "airLabel": "보통"
+      }
+    }
+  ]
+}
