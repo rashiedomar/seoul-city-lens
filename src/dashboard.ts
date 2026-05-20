@@ -1262,7 +1262,8 @@ async function waitForMap(map: MapLibreMap) {
 }
 
 function getPublicDataUrl(filename: string, bustCache = false) {
-  const url = new URL(`../data/${filename}`, import.meta.url)
+  const base = import.meta.env.BASE_URL || './'
+  const url = new URL(`data/${filename}`, new URL(base, window.location.href))
 
   if (bustCache) {
     url.searchParams.set('v', String(Date.now()))
